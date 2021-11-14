@@ -1,0 +1,15 @@
+name: sdltest
+version: 0.1.0
+
+authors:
+  - Alex Clink <alexclink@gmail.com>
+
+targets:
+  sdltest:
+    main: src/sdltest.cr
+
+crystal: 1.2.0
+
+dependencies:
+  sdl:
+    github: ysbaddaden/sdl.cr
