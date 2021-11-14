@@ -1,2 +1,2 @@
 build:
-	clang main.c `sdl2-config --cflags --libs`
+	clang main.c -O3 `sdl2-config --cflags --libs`
